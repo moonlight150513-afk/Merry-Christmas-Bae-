@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas Jeyonsome ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <button id="musicBtn" class="music-btn" onclick="toggleMusic()" aria-label="Toggle music box">
+        🔇
+    </button>
+
+    <div class="bg-texture"></div>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <div id="snow"></div>
+    <div id="hearts"></div>
+
+    <main class="container">
+
+        <div class="top-meta">
+            <span class="stamp">NO. 25 · DEC</span>
+            <span class="top-label">♡ A LITTLE CHRISTMAS SURPRISE ♡</span>
+            <span class="stamp">SPECIAL</span>
+        </div>
+
+        <div class="hero-ornament">
+            <span class="sparkle-side">✦</span>
+            <div class="ribbon">🎀</div>
+            <span class="sparkle-side">✦</span>
+        </div>
+
+        <h1 class="main-title">Merry Christmas,</h1>
+        <h2 class="shimmer-text">Jeyonsome ❤️</h2>
+
+        <p class="intro">
+            Someone has prepared a little something for you...
+        </p>
+
+        <div class="gift-wrapper">
+            <div class="gift-halo"></div>
+            <div class="gift" id="gift" onclick="handleGiftTap()">
+                🎁
+            </div>
+        </div>
+
+        <p class="hint" id="hint">
+            Psst... tap your present! 🤭
+        </p>
+
+        <section id="letter" class="letter hidden">
+
+            <div class="wax-seal" aria-hidden="true">♡</div>
+
+            <div class="letter-decoration">💌</div>
+
+            <h3>Hey, you! ♡</h3>
+
+            <p class="stagger">
+                Merry Christmas, Jeyonsome!
+            </p>
+
+            <div class="drawing-container stagger">
+                <div class="washi-tape" aria-hidden="true"></div>
+                <p class="drawing-subtitle">...and a little gift I drew for you 🎨</p>
+
+                <!-- Replace your-drawing-filename.png with your actual image filename -->
+                <img src="your-drawing-filename.png" alt="A special drawing for Jeyonsome" class="special-drawing">
+
+                <p class="drawing-caption">Hope you like it! Made with love ✍️</p>
+            </div>
+
+            <p class="stagger">
+                I wanted to give you something a little different
+                this Christmas. So... here's a tiny website
+                made especially for you.
+            </p>
+
+            <p class="stagger">
+                Hindi man ito mamahaling regalo,
+                pero ginawa ko ito with a little effort,
+                care and a whole lot of kilig. 🤭
+            </p>
+
+            <p class="stagger">
+                I hope your Christmas is filled with happiness,
+                laughter and beautiful memories.
+            </p>
+
+            <p class="stagger">
+                And hey, don't forget to smile!
+                Bagay sa'yo. ❤️
+            </p>
+
+            <p class="signature stagger">
+                With love and a little mischief,<br>
+                Someone who thinks you're special ♡
+            </p>
+
+            <button id="surpriseBtn" onclick="showSurprise()">
+                One more surprise? 💗
+            </button>
+
+            <div id="surprise" class="hidden surprise">
+                <h3>Hehehe... 🤭</h3>
+
+                <p>
+                    Alam mo ba?
+                </p>
+
+                <p>
+                    You just made it to someone's
+                    Christmas surprise list.
+                </p>
+
+                <p>
+                    Don't let it get to your head...
+                    but you're pretty special. 😌❤️
+                </p>
+
+                <h2 class="mwah">MWAH! 💋</h2>
+            </div>
+
+        </section>
+
+        <section class="question">
+            <p>So... did I make you smile?</p>
+
+            <div class="button-group">
+                <button id="yesBtn" class="yes-button" onclick="answerYes()">
+                    Yes! 🥰
+                </button>
+
+                <button id="noBtn" class="no-button" onclick="dodgeNo()">
+                    Not yet 😏
+                </button>
+            </div>
+
+            <p id="answer"></p>
+        </section>
+
+        <footer>
+            Made with ♡ just for Jeyonsome<br>
+            Christmas 2026 🎄
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
